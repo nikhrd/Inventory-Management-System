@@ -1,0 +1,121 @@
+.backup-container {
+  padding: 40px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f1f1f;
+}
+
+.backup-title {
+  font-size: 26px;
+  font-weight: 700;
+  color:red;
+  margin-bottom: 6px;
+}
+
+.backup-subtitle {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 25px;
+}
+
+.backup-sections {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.backup-card {
+  background-color: #101828;
+  color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  flex: 1;
+  min-width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.backup-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.backup-card p {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-bottom: 20px;
+}
+
+.backup-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.json-btn,
+.excel-btn {
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.json-btn {
+  background-color: #2563eb;
+}
+
+.json-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.excel-btn {
+  background-color: #22c55e;
+}
+
+.excel-btn:hover {
+  background-color: #16a34a;
+}
+
+.import-section input[type="file"] {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.file-note {
+  font-size: 13px;
+  color: #d1d5db;
+}
+
+.important-notes {
+  background-color: #f2e8dc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.important-notes h4 {
+  color: #b45309;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.important-notes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.important-notes li {
+  color: #404040;
+  font-size: 14px;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
