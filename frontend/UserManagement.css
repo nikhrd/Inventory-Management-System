@@ -1,0 +1,162 @@
+.user-management-container {
+  padding: 40px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f1f1f;
+}
+
+.user-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.user-management-header h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.user-management-header p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin: 3px 0 0;
+}
+
+.add-user-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-user-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-table thead {
+  background-color: #f9fafb;
+}
+
+.user-table th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.user-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e0e7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f46e5;
+  font-size: 16px;
+}
+
+.user-name {
+  font-weight: 600;
+}
+
+.user-email {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.role-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.role-badge.admin {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.role-badge.manager {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.role-badge.staff {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status-badge.active {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.status-badge.inactive {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.action-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-icon {
+  color: #2563eb;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit-icon:hover {
+  color: #1e40af;
+}
+
+.delete-icon {
+  color: #ef4444;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-icon:hover {
+  color: #b91c1c;
+}
